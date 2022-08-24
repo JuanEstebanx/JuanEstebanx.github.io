@@ -1,3 +1,3 @@
-Este es el primer archivo txt, fue la primera vez que estoy modificando el codigo que debe ir acá, no he subido naaada a git.
-
 Y esta es la segunda linea que le voy a subir como version 2, no tiene nada que ver con la linea 1, SI ESTO TIENE QUE VER PERO SOLO EN LA 3 ACTUALIZACIÓN
+
+OE, borre la primera linea pero pues igual, solo se necesita la linea que diga actualización 3 que fue una actualización que se realizó en la segunda actualización
