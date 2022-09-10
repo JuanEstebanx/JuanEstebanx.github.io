@@ -3,4 +3,4 @@ Y esta es la segunda linea que le voy a subir como version 2, no tiene nada que 
 OE, borre la primera linea pero pues igual, solo se necesita la linea que diga actualización 3 que fue una actualización que se realizó en la segunda actualización
 El nuevo parraffo mi bro, pero lo eesta en la rama origin 018aaf5, todo rar no?
 
-Este es el archivo de rama a ver si se puede hacer commit
+Ahora el archivo en la rama esa siendo editado pero esta en GITHUB, si logra hllevar estos cambios a su repositorio pglo
