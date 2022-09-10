@@ -4,3 +4,5 @@ OE, borre la primera linea pero pues igual, solo se necesita la linea que diga a
 El nuevo parraffo mi bro, pero lo eesta en la rama origin 018aaf5, todo rar no?
 
 Ahora el archivo en la rama esa siendo editado pero esta en GITHUB, si logra hllevar estos cambios a su repositorio pglo
+ Perro lo logró, ahora subalo y disfrute, perp subalo a main
+ 
