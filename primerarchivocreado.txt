@@ -1,8 +1,0 @@
-Y esta es la segunda linea que le voy a subir como version 2, no tiene nada que ver con la linea 1, SI ESTO TIENE QUE VER PERO SOLO EN LA 3 ACTUALIZACIÓN
-
-OE, borre la primera linea pero pues igual, solo se necesita la linea que diga actualización 3 que fue una actualización que se realizó en la segunda actualización
-El nuevo parraffo mi bro, pero lo eesta en la rama origin 018aaf5, todo rar no?
-
-Ahora el archivo en la rama esa siendo editado pero esta en GITHUB, si logra hllevar estos cambios a su repositorio pglo
- Perro lo logró, ahora subalo y disfrute, perp subalo a main
- 
