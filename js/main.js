@@ -4,12 +4,14 @@ const mobileMenu = document.querySelector('.mobile-menu');
 const desktopMenu = document.querySelector('.desktop-menu');
 const menuCarrito = document.querySelector('.navbar-shopping-cart');
 const shoppingCartContainer = document.querySelector('#shoppingCartContainer');
+const productDetailContainer = document.querySelector('#productDetail');
 const cardsContainer = document.querySelector('.cards-container');
-
+const productDetailCloseIcon = document.querySelector('.product-detail-close');
 
 menuEmail.addEventListener('click', toggleDesktopMenu);
 menuIcon.addEventListener('click', toggleMobileMenu);
 menuCarrito.addEventListener('click', toggleCarritoAside);
+productDetailCloseIcon.addEventListener('click', closeProductDetailAside);
 
 function toggleDesktopMenu(){
 
@@ -31,7 +33,7 @@ function toggleMobileMenu(){
 
         shoppingCartContainer.classList.add('inactive');
     }
-
+    closeProductDetailAside();
     mobileMenu.classList.toggle('inactive');
 }
 
@@ -43,9 +45,25 @@ function toggleCarritoAside(){
         mobileMenu.classList.add('inactive');
     }
 
+    const isProductDetailClose = productDetailContainer.classList.contains('inactive');
+
+    if(!isProductDetailClose){
+
+        productDetailContainer.classList.add('inactive');
+    }
+
     shoppingCartContainer.classList.toggle('inactive');
 
 }
+
+function openProductDetailAside(){
+    productDetailContainer.classList.remove('inactive');
+}
+
+function closeProductDetailAside (){
+    productDetailContainer.classList.add('inactive');
+}
+
 
 const productList = [];
 productList.push ({
@@ -67,20 +85,6 @@ productList.push ({
     image: 'https://pedalmoto.com/blog/wp-content/uploads/2019/10/bicycle-daylight-forest-100582-min-1030x687.jpg',
 });
 
-/*<div class="product-card">
-        <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-        <div class="product-info">
-          <div>
-            <p>$120,00</p>
-            <p>Bike</p>
-          </div>
-          <figure>
-            <img src="./icons/bt_add_to_cart.svg" alt="">
-          </figure>
-        </div>
-</div>*/
-
-
 function rederProducts(arr){
 
 
@@ -90,6 +94,7 @@ function rederProducts(arr){
         
         const productImg = document.createElement('img');
         productImg.setAttribute('src', product.image);
+        productImg.addEventListener('click', openProductDetailAside);
         
         const productInfo = document.createElement('div');
         productInfo.classList.add('product-info');
